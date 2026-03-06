@@ -1,40 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Moon Hub</title>
-<link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
 <div class="container">
 
-<div class="title">MOON HUB</div>
-
-<div class="box">
+<h1>MOON HUB</h1>
 
 <p>Welcome to Moon Hub</p>
 <p>Best Roblox Script Hub</p>
 
-<textarea id="scriptBox" readonly>
+<div class="script-box">
 loadstring(game:HttpGet("https://moonhub-seven.vercel.app/loader.lua"))()
-</textarea>
-
-<br><br>
-
-<button onclick="copyScript()">Copy Script</button>
-
 </div>
 
+<button>Copy Script</button>
+
 </div>
-
-<script>
-function copyScript(){
-let text = document.getElementById("scriptBox").value;
-navigator.clipboard.writeText(text);
-alert("Copied!");
-}
-</script>
-
-</body>
-</html>
