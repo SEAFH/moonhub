@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Moon Hub Script</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+<a href="/">Home</a>
+<a href="/script">Script</a>
+</nav>
+
+<div class="container">
+
+<div class="title">SCRIPT</div>
+
+<div class="box">
+
+<p>Copy Script Below</p>
+
+<textarea rows="5" cols="60">
+loadstring(game:HttpGet("https://web.vercel.app/loader.lua"))()
+</textarea>
+
+<br><br>
+
+<button onclick="copyScript()">Copy Script</button>
+
+</div>
+
+</div>
+
+<script>
+function copyScript(){
+var text=document.querySelector("textarea");
+text.select();
+document.execCommand("copy");
+alert("Script Copied!");
+}
+</script>
+
+</body>
+</html>
