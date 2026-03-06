@@ -1,28 +1,33 @@
-textarea{
-background:#0d1117;
-color:#58a6ff;
-border:1px solid #30363d;
-padding:12px;
-width:420px;
-height:80px;
-font-family:Consolas, monospace;
-font-size:14px;
-border-radius:6px;
-box-shadow:0 0 10px #7c3aed;
+body{
+    background:#0b0b0f;
+    color:white;
+    font-family:Arial;
+}
+
+.container{
+    margin:60px;
+}
+
+h1{
+    font-size:40px;
+}
+
+.script-box{
+    background:#070b16;
+    border-radius:12px;
+    padding:20px;
+    width:450px;
+    box-shadow:0 0 20px purple;
+    margin-top:20px;
 }
 
 button{
-background:#7c3aed;
-border:none;
-padding:12px 25px;
-color:white;
-font-size:16px;
-cursor:pointer;
-border-radius:6px;
-transition:0.3s;
-}
-
-button:hover{
-background:#9333ea;
-box-shadow:0 0 15px #a855f7;
+    margin-top:15px;
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(90deg,#7b3cff,#b46cff);
+    color:white;
+    font-size:16px;
+    cursor:pointer;
 }
